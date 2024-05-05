@@ -1,0 +1,140 @@
+﻿<telerik:RadWindow Name="mainwWnd"
+                   FontSize="14"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+        xmlns:navigation="clr-namespace:Telerik.Windows.Controls.Navigation;assembly=Telerik.Windows.Controls.Navigation"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" xmlns:Chromes="clr-namespace:Telerik.Windows.Controls.Chromes;assembly=Telerik.Windows.Controls" 
+                   xmlns:Primitives="clr-namespace:Telerik.Windows.Controls.Primitives;assembly=Telerik.Windows.Controls.Navigation" 
+                   x:Class="wpfDiscover.DeviceDiscoveryMainWindow"
+        xmlns:local="clr-namespace:wpfDiscoverViewModel;assembly=wpfDiscoverViewModel"
+        navigation:RadWindowInteropHelper.ShowInTaskbar="True"
+        Header="Discover Devices" Height="650" Width="1225" >
+    <telerik:RadWindow.DataContext>
+        <local:WpfDiscoverVM/>
+    </telerik:RadWindow.DataContext>
+
+    
+    
+    <telerik:RadWindow.Resources>
+        
+        <BooleanToVisibilityConverter x:Key="VisibleIfTrueConverter" />
+        <DataTemplate x:Key="ListBoxCustomTemplate">
+            <Grid Margin="20,20,20,20" Width="Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image Margin="1" Grid.Column="0" Width="85" Height="75" Grid.RowSpan="3" Source="{Binding DeviceImage}" RenderOptions.BitmapScalingMode="Fant"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" FontWeight="Bold" Margin="10,0,0,0" FontStretch="UltraExpanded" Grid.RowSpan="2" Grid.ColumnSpan="2" Text="{Binding Name}" />
+
+                <TextBlock Grid.Row="3" Grid.Column="1" Text="IP Address: " Margin="10,0,0,0"/>
+                <TextBlock Grid.Row="3" Grid.Column="1" FontStyle="Oblique" Foreground="SteelBlue" Margin="80,0,0,0" 
+                Text="{Binding Service}"/>
+                <TextBlock Grid.Row="3" Grid.Column="2" Text="Port: " Margin="10,0,0,0"/>
+                <TextBlock Grid.Row="3" FontStyle="Oblique" Foreground="SteelBlue" Grid.Column="2" Margin="44,0,0,0" 
+                Text="{Binding Domain}" />
+            </Grid>
+        </DataTemplate>
+    </telerik:RadWindow.Resources>
+    
+    <telerik:RadDocking x:Name="radDocking">
+        <telerik:RadDocking.DocumentHost>
+            <telerik:RadSplitContainer Name="middleDock" Orientation="Vertical" Height="Auto" Margin="0,0,0,-0.2"  >
+                <telerik:RadPaneGroup Name="devicesPaneGroup" >
+                    <telerik:RadPane Name="devicesPane" Header="Devices" CanUserClose="False"   CanUserPin="False" CanFloat="False" >
+                        <telerik:RadListBox x:Name="discoveredItems" 
+                                            SelectionMode="Single"
+                                            SelectedIndex="0"
+                                            SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
+                                            Command="{Binding GetSelectedItemProp}"
+                                            CommandParameter="{Binding Path=SelectedItem, RelativeSource={RelativeSource Mode=Self}}"
+                                            ItemsSource="{Binding DiscoveredDevices, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                            ItemTemplate="{StaticResource ListBoxCustomTemplate}">
+
+                        </telerik:RadListBox>
+                    </telerik:RadPane>
+                    <telerik:RadPane Name ="errorPane" Selector.IsSelected="{Binding ErrorPaneActive, Mode=OneWayToSource}"
+                                 Foreground="{Binding ErrorPaneColor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                 Header="Error details" CanUserClose="False" CanUserPin="False" CanFloat="False" >
+                        <TextBox x:Name="errorDisplay" IsReadOnly="True" Foreground="Red" VerticalContentAlignment="Top"  
+                                                Text="{Binding ErrorDetails, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                                VerticalScrollBarVisibility="Auto">
+                        </TextBox>
+
+                    </telerik:RadPane>
+            </telerik:RadPaneGroup>
+
+            </telerik:RadSplitContainer>
+        </telerik:RadDocking.DocumentHost>
+
+        <telerik:RadSplitContainer MinWidth="170" MaxWidth="200" Name="menuDock" Width="135" InitialPosition="DockedLeft"  Margin="0,0,0,0.2" >
+            <telerik:RadPaneGroup >
+                <telerik:RadPane Header="Menu" Name ="menuPane" Margin="0,0,0.2,0" CanUserClose="False"  CanUserPin="False" CanFloat="False" >
+                    <telerik:RadLayoutControl SelectedItem="{x:Null}" Orientation="Vertical">
+                        <telerik:RadToggleSwitchButton Name="onOffButton" 
+                                                       FontSize="{Binding FontSize, Mode=OneWay, ElementName=mainwWnd}"
+                                                       VerticalAlignment="Top" HorizontalAlignment="Center" Margin="20,40,20,0" CheckedContent="_On" 
+                                                       UncheckedContent="O_ff" ContentPosition="Both" 
+                                                       IsThreeState="False"
+                                                       IsChecked="{Binding OnOffSwitch, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                                       Command="{Binding OnOffCommand}"  
+                                                        CommandParameter="{Binding Path=IsChecked, RelativeSource={RelativeSource Self}}"
+                                                       />
+                        <telerik:RadToggleButton Name="advancedButton" VerticalAlignment="Top" Content="_Advanced" Margin="25"/>
+
+                        <telerik:GroupBox Header="Advanced Options" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"
+                                          Visibility="{Binding Path=IsChecked, FallbackValue=true, ElementName=advancedButton, Converter={StaticResource VisibleIfTrueConverter}}">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <telerik:RadWatermarkTextBox Grid.Row="0" Name="scanTime" WatermarkContent="Scan Time (ticks)" Margin="3,10,3,3" VerticalAlignment="Top"
+                                                     Visibility="{Binding Path=IsChecked, FallbackValue=true, ElementName=advancedButton, Converter={StaticResource VisibleIfTrueConverter}}"
+                                                             Text="{Binding Path = TimeSpan, Mode=OneWayToSource}"/>
+                                <telerik:RadWatermarkTextBox Grid.Row="1" Name="noOfRetries" WatermarkContent="Retry Count" Margin="3" VerticalAlignment="Top"
+                                                     Visibility="{Binding Path=IsChecked, FallbackValue=true, ElementName=advancedButton, Converter={StaticResource VisibleIfTrueConverter}}"
+                                                             Text="{Binding Path = RetryCount, Mode=OneWayToSource}" />
+                                <telerik:RadWatermarkTextBox Grid.Row="2" Name="retryDElay" WatermarkContent="Retry Delay (ms)" Margin="3" VerticalAlignment="Top"
+                                                     Visibility="{Binding Path=IsChecked, FallbackValue=true, ElementName=advancedButton, Converter={StaticResource VisibleIfTrueConverter}}"
+                                                             Text="{Binding Path = RetryInMs, Mode=OneWayToSource}"/>
+                                <telerik:RadButton Grid.Row="3"  VerticalAlignment="Top" Content="A_pply" Margin="3" 
+                                           Visibility="{Binding Path=IsChecked, FallbackValue=true, ElementName=advancedButton, Converter={StaticResource VisibleIfTrueConverter}}" 
+                                                          Command="{Binding ResetCommand}"  
+                                                        CommandParameter="{Binding IsChecked, ElementName=onOffButton}"/>
+                            </Grid>
+                        </telerik:GroupBox>
+
+                    </telerik:RadLayoutControl>
+
+                </telerik:RadPane>
+            </telerik:RadPaneGroup>
+        </telerik:RadSplitContainer>
+
+        <telerik:RadSplitContainer Name="detailsDock" InitialPosition="DockedRight" MinWidth="265" MaxWidth="500">
+            <telerik:RadPaneGroup>
+                <telerik:RadPane Name="detailsPane" Header="Details" CanUserClose="False"  CanUserPin="False" CanFloat="False" >
+                    <TextBox x:Name="deviceDetails" TextWrapping="Wrap" Foreground="SteelBlue" IsReadOnly="True" Margin="3"
+                             Text="{Binding Path = DeviceDetails, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  
+                              VerticalContentAlignment="Top" VerticalScrollBarVisibility="Auto"/>
+
+
+                </telerik:RadPane>
+            </telerik:RadPaneGroup>
+        </telerik:RadSplitContainer>
+    </telerik:RadDocking>
+
+</telerik:RadWindow>

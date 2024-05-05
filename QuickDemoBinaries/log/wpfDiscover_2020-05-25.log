@@ -1,0 +1,1109 @@
+2020-05-25 20:01:01.7612 [1] Info Init DeviceDiscoveryMainWindow 
+2020-05-25 20:01:01.8862 [1] Info Construction of WpfDiscoverVM 
+2020-05-25 20:01:01.8862 [1] Info WpfDiscoverModel -- Model Creation 
+2020-05-25 20:01:01.9018 [1] Info WpfDiscoverModel -- Model Creation Complete 
+2020-05-25 20:01:02.4955 [7] Info OnNext -- testDiscover::OnNext (DomainService) Serivce: 192.168.32.1: _nvstream_dbd, Domain: _nvstream_dbd._tcp.local. 
+2020-05-25 20:01:02.5737 [9] Info OnNext -- testDiscover::OnNext (DomainService) Serivce: 192.168.164.1: _nvstream_dbd, Domain: _nvstream_dbd._tcp.local. 
+2020-05-25 20:01:02.5737 [13] Info OnNext -- testDiscover::OnNext (DomainService) Serivce: 192.168.1.75: _nvstream_dbd, Domain: _nvstream_dbd._tcp.local. 
+2020-05-25 20:01:02.8236 [1] Info Construction of WpfDiscoverVM, Complete 
+2020-05-25 20:01:03.0267 [8] Info OnNext -- testDiscover::OnNext (DomainService) Serivce: 192.168.1.8: _companion-link, Domain: _companion-link._tcp.local. 
+2020-05-25 20:01:03.0267 [8] Info OnNext -- testDiscover::OnNext (DomainService) Serivce: 192.168.1.8: _companion-link, Domain: _http._tcp.local. 
+2020-05-25 20:01:04.8234 [1] Info Init DeviceDiscoveryMainWindow complete 
+2020-05-25 20:01:05.0182 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:05 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:05.0182 [14] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:05.0182 [7] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:05 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:05.0182 [7] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:05.0182 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:05 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:05.0182 [14] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:05.0182 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:05 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:05.0312 [13] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:05.0312 [15] Debug GetDiscoveredDevice -- Found :192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:05.0312 [15] Info DiscoverModel_PublishDevice -- New Device discovered: 192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 Device Name:  
+2020-05-25 20:01:05.0312 [15] Info DiscoverModel_PublishDevice -- Publishing New Device details: 192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 Device Name:  
+2020-05-25 20:01:05.0312 [15] Debug GetDeviceDetails -- GetDeviceDetails Found for key :192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:05.6563 [1] Debug GetDeviceDetails -- GetDeviceDetails Found for key :192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:07.2366 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:07 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:07.2366 [15] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:07.2366 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:07 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:07.2366 [14] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:07.2366 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:07 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:07.2366 [13] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:07.2366 [7] Debug GetDiscoveredDevice -- Found :192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:07.2522 [7] Debug GetDeviceDetails -- GetDeviceDetails Found for key :192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:07.2522 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:07 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:07.2522 [14] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:09.5244 [7] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:09 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:09.5244 [7] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:09.5244 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:09 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:09.5244 [14] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:09.5244 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:09 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:09.5244 [13] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:09.5244 [15] Debug GetDiscoveredDevice -- Found :192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:09.5244 [15] Debug GetDeviceDetails -- GetDeviceDetails Found for key :192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:09.5244 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:09 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:09.5400 [14] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:10.9101 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:12.2471 [14] Debug GetDiscoveredDevice -- Found :192.168.1.8@@_companion-link._tcp.local.@@50635 
+2020-05-25 20:01:12.2471 [14] Info DiscoverModel_PublishDevice -- New Device discovered: 192.168.1.8@@_companion-link._tcp.local.@@50635 Device Name:  
+2020-05-25 20:01:14.3862 [15] Debug GetDiscoveredDevice -- Found :192.168.1.8@@_http._tcp.local.@@80 
+2020-05-25 20:01:14.3862 [15] Info DiscoverModel_PublishDevice -- New Device discovered: 192.168.1.8@@_http._tcp.local.@@80 Device Name:  
+2020-05-25 20:01:16.3414 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:16 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:16.3414 [14] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:16.4508 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:16 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:16.4508 [14] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:16.4508 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:16 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: _nvstream_dbd
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:16.4508 [15] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: _nvstream_dbd
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:16.4508 [7] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:16 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: _nvstream_dbd
+Id: 192.168.164.1
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:16.4508 [7] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: _nvstream_dbd
+Id: 192.168.164.1
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:18.7175 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:18 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:18.7175 [15] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:18.7175 [7] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:18 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:18.7175 [7] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:18.7175 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:18 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:18.7175 [15] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:18.7175 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:18 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:18.7175 [14] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:19.9225 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:19.9225 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.8@@_companion-link._tcp.local.@@50635 
+2020-05-25 20:01:19.9225 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.8@@_http._tcp.local.@@80 
+2020-05-25 20:01:21.0337 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:21 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:21.0337 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:21 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:21.0337 [7] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:21 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:21.0486 [7] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:21.0486 [15] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:21.0486 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:21 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:21.0486 [13] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:21.0486 [14] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:23.3046 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:23 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:23.3046 [15] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:23.3046 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:23 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:23.3046 [14] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:23.3046 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:23 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:23.3046 [13] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:23.3046 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:23 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:23.3046 [14] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:28.9285 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:28.9285 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.8@@_companion-link._tcp.local.@@50635 
+2020-05-25 20:01:28.9285 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.8@@_http._tcp.local.@@80 
+2020-05-25 20:01:30.0474 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:30 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:30.0474 [13] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:30.1564 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:30 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:30.1564 [13] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:30.1564 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:30 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: _nvstream_dbd
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:30.1564 [15] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: _nvstream_dbd
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:30.1564 [9] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:30 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: _nvstream_dbd
+Id: 192.168.164.1
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:30.1564 [9] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: _nvstream_dbd
+Id: 192.168.164.1
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:32.3524 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:32 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:32.3524 [13] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:32.3524 [9] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:32 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:32.3524 [9] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:32.3524 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:32 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:32.3524 [15] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:32.4149 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:32 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:32.4149 [15] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:34.6933 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:34 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:34.6933 [15] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:34.6933 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:34 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:34.6933 [13] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:34.6933 [9] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:34 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:34.6933 [9] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:34.7245 [9] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:34 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:34.7245 [9] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:37.0291 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:37 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:37.0300 [13] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:37.0291 [9] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:37 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:37.0300 [9] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:37.0300 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:37 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:37.0300 [15] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:37.0300 [9] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:37 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:37.0300 [9] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:37.9359 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:37.9359 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.8@@_companion-link._tcp.local.@@50635 
+2020-05-25 20:01:37.9359 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.8@@_http._tcp.local.@@80 
+2020-05-25 20:01:43.7587 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:43 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:43.7743 [15] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:43.8605 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:43 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:43.8605 [15] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: _nvstream_dbd
+Id: 192.168.32.1
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:43.8605 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:43 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: _nvstream_dbd
+Id: 192.168.164.1
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:43.8605 [14] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: _nvstream_dbd
+Id: 192.168.164.1
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:43.8605 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:43 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: _nvstream_dbd
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:43.8605 [13] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: _nvstream_dbd
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:46.1506 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:46 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:46.1506 [13] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:46.1506 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:46 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:46.1506 [15] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
+2020-05-25 20:01:46.1506 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:46 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:46.1506 [14] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:46.1818 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:46 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:46.1818 [14] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:46.9468 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.75@@_nvstream_dbd._tcp.local.@@47989 
+2020-05-25 20:01:46.9468 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.8@@_companion-link._tcp.local.@@50635 
+2020-05-25 20:01:46.9468 [3] Info ProcssExpiry -- Checking Device for expiration: 192.168.1.8@@_http._tcp.local.@@80 
+2020-05-25 20:01:48.5008 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:48 PM | Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services:] 
+2020-05-25 20:01:48.5008 [13] Info Name: VMware Network Adapter VMnet1
+ Address: 192.168.32.1
+ Display Name: 3
+Id: 192.168.32.1
+IP Address: 192.168.32.1
+IP Addresses: 192.168.32.1 
+
+Services: 
+2020-05-25 20:01:48.5008 [14] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:48 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End -----] 
+2020-05-25 20:01:48.5008 [14] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 3
+Id: 192.168.1.75
+IP Address: 192.168.1.75
+IP Addresses: 192.168.1.75 
+
+Services:
+
+ ----- Begin -----
+ Service Key: _nvstream_dbd._tcp.local.
+ Service Name: _nvstream_dbd._tcp.local.
+ Service Port: 47989
+ Service TTL: 120
+ Service Properties:
+ ----- End ----- 
+2020-05-25 20:01:48.5008 [13] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:48 PM | Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services:] 
+2020-05-25 20:01:48.5008 [13] Info Name: Wi-Fi
+ Address: 192.168.1.75
+ Display Name: 
+Id: 192.168.1.75
+IP Address: 
+IP Addresses:
+
+Services: 
+2020-05-25 20:01:48.5008 [15] Error DiscoverModel_Error -- Error Reported: [5/25/2020 8:01:48 PM | Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services:] 
+2020-05-25 20:01:48.5168 [15] Info Name: VMware Network Adapter VMnet8
+ Address: 192.168.164.1
+ Display Name: 3
+Id: 192.168.164.1
+IP Address: 192.168.164.1
+IP Addresses: 192.168.164.1 
+
+Services: 
