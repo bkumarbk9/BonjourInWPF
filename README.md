@@ -1,5 +1,5 @@
-Bonjour In WPF Application
-WPF mDNS (Bonjour) discovery tool to discover available network services
+Bonjour In WPF Application: A WPF mDNS (Bonjour) discovery tool to discover available network services
+
 Introduction
 In past 20 years, computers gradually transitioned away from platform-specific protocols such as AppleTalk, IPX, and NetBIOS towards the Internet Protocol (IP). The majority of computers and other network devices all use TCP/IP for communication. In that transition, however, one piece of functionality was lost—the ability to add devices to a local network and then connect to those devices from computers and other devices on the network, all with little or no configuration.
 
@@ -7,8 +7,8 @@ Consider printing using a standard printer. The moment a printer is configured i
 
 ![alt text](https://github.com/bkumarbk9/BonjourInWPF/tree/main/doc/img/Screenshot.jpg)
 
-
 Background
+
 Bonjour is Apple’s concept for zero-configuration networking over IP. Bonjour comes out of the work of the ZEROCONF Working Group, part of the Internet Engineering Task Force (IETF). The ZEROCONF Working Group’s requirements and proposed solutions for zero-configuration networking over IP essentially cover three areas:
 
 addressing (allocating IP addresses to hosts)
@@ -34,6 +34,7 @@ Using the Application
 3. Check for error and using tabs in application 
 
 Why WPF Application
+
 When it comes to developing high-performance desktop applications, the choice between Windows Presentation Foundation (WPF) and Windows Forms (WinForms) is pivotal. WPF’s modern architecture, leveraging hardware acceleration and vector-based rendering, often results in smoother animations and graphics. Its resolution independence also shines on high DPI displays and touch which is the norm nowadays.
 
 WinForms, in contrast, is often acknowledged as a lightweight and high-performance UI framework. Although it may not deliver the visual sophistication of WPF, Winforms excels in offering responsive user interfaces, even on less powerful hardware.
@@ -59,5 +60,6 @@ History
 V1.0 -- 5th May 2024 - First version
 
 References
-1.  Bonjour Concepts (apple.com)
+1. https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/NetServices/Articles/about.html
+2. https://github.com/novotnyllc/Zeroconf 
 
